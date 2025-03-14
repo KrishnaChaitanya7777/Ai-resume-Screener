@@ -1,0 +1,4 @@
+flask
+spacy
+pymupdf
+google-generativeai
