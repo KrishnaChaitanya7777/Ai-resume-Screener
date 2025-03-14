@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analysis</title>
+</head>
+<body>
+    <h2>Extracted Skills</h2>
+    <ul>
+        {% for skill in skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Extracted Experience</h2>
+    <ul>
+        {% for exp in experience %}
+        <li>{{ exp }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Candidate Score: {{ score }}</h2>
+    
+    <h2>Resume Summary</h2>
+    <p>{{ summary }}</p>
+
+    <a href="/">Upload Another Resume</a>
+</body>
+</html>
